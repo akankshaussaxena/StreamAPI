@@ -12,7 +12,7 @@ public class ComparingPeriodExample {
 		LocalDate localDate1=LocalDate.of(2023, 12, 31);
 		
 		Period period=localDate.until(localDate1);
-		System.out.println("period : "+period);
+		System.out.println("period1 : "+period);
 		System.out.println("getDays : "+period.getDays());
 		System.out.println("getMonths : "+period.getMonths());
 		System.out.println("getYears : "+period.getYears());
